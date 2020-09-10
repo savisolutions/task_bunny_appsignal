@@ -24,7 +24,7 @@ defmodule TaskBunnyAppsignal.MixProject do
       {:dialyxir, "~> 1.0.0-rc.7", only: [:dev], runtime: false},
       {:jason, "~> 1.1"},
       {:mimic, "~> 1.0", only: :test},
-      {:task_bunny, "~> 0.3.2"}
+      {:task_bunny, github: "savisolutions/task_bunny"}
     ]
   end
 end
